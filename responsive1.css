@@ -1,0 +1,872 @@
+@media screen and (min-width:300px) and (max-width:550px) {
+    *{
+        padding: 0;
+        margin:0;
+    border: 1px solid red;
+    }
+    .background {
+        width: 100%;
+      }
+   
+    .oxhen{
+height: 60vh;
+
+    }
+    .picoo3{
+margin-left: 0px;
+height: 30px !important;
+width: 95px !important;
+    }
+    .nav2 > .mainul {
+    display: none;
+      }
+
+      .oxhen > h1 {
+        font-size: 35px;
+        top: 16%;
+      }
+      .ex>p{
+        top: 32%;
+        left: 45%;
+        font-size:40px;
+      }
+      .oxhen > h2 {
+        text-align: center;
+        width: 100%;
+        top: 40%;
+        left: 0%;
+        font-size: 15px;
+       
+      }
+      .oxhen > button {
+        top: 52%;
+        left: 20%;
+        height: 50px;
+        width: 150px;
+      }
+      .oxhen > i {
+        position: absolute;
+        top: 52.5%;
+        left: 70%;
+        font-size: 22px;
+      }
+      .template{
+        width:100%;
+      }
+
+      .template > h1 {
+        width: 100%;
+        text-align: center;
+        top: 15%;
+        left: 0%;
+        font-size: 20px;
+      
+      }
+      .template .hr1 {
+        top: 30.5%;
+        left: 33.6%;
+      }
+      .template .fa-caret-up {
+        top: 26.5%;
+     
+        left: 45.5%;
+      }
+      .template .hr2 {
+        left: 50.8%;
+      }
+
+
+      .template > p {
+        top: 50%;
+        left: 0%;
+        text-align: center;
+        width:100%;
+        font-size: 13px;
+      }
+
+      .back {
+        height: 800px;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .back .fully {
+        margin-left: 0px;
+        height: 80%;
+    width: 90%;
+      }
+      
+.fully > h2 {  
+    left: 0%;
+    width:100%;
+    text-align: center;
+  }
+
+  .fully > h3 {
+  width:100%;
+    left: 0%;
+ text-align: center;
+  }
+
+
+  .marketing {
+    height: 900px;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .marketing .pic {
+    width: 90%;
+  }
+  .marketing .marks {
+    width: 90%;
+  }
+  .marks > h1 {
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    font-size: 30px;
+  }
+  .marks > h6 {
+top:17%;
+    left: 0%;
+    width:100%;
+    text-align: center;
+    font-size: 12.5px;
+   
+  }
+  .marks .p1 {
+    position: absolute;
+    top: 35%;
+    height: 40px;
+    width: 100%;
+  }
+  .p1 > p {
+    left: 0%;
+    width:100%;
+    text-align: center;
+  }
+  .marks .p2 {
+    top: 50%;
+  }
+  .marks .p3 {
+    top: 65%;
+  }
+  .marks .button2 {
+    left: 30%;
+    top: 80%;
+    height: 45px;
+    width: 160px;
+  }
+  .p1 > i {
+    margin-left: 5px;  
+  }
+
+
+  .aim {
+    height: 800px;
+  }
+  .aim .pic {
+    left: 0%;
+  }
+  .aim .marks {
+    left: 0%;
+  }
+  .aim .marks > h6 {
+    top: 28%;
+  }
+  .aim .p1 {
+    top: 44%;
+    left: 0%;
+    text-align: center;
+  }
+  .aim .p1 > h3 {
+    left: 0%;
+    top: 15%;
+  }
+
+  .aim .p1 > p {
+    left: 0%;
+    top: 70%;
+  }
+ 
+  .pigo > p {
+    top: 45%;
+    left: 0%;
+  }
+  .pigo > h3 {
+    top: 75%;
+    left: 0%;
+  }
+
+  .aim .p2 {
+    top: 60%;
+  }
+  .aim .p3 {
+    top: 75%;
+  }
+
+
+
+
+
+
+  .stay {
+    height: 350px;
+
+  }
+  .stay .conn {
+    height: 70%;
+    width: 100%;
+  }
+  .conn > h1 {
+    left: 0%;
+    width:100%;
+    text-align: center;
+  }
+  .conn > p {
+    left: 0%;
+    width:100%;
+    text-align: center;
+  }
+  .conn .button2 {
+    position: absolute;
+    left: 30%;
+    top: 82%;
+  }
+  .what .hr1{
+    top:40%;
+  }
+  .what .up1{
+    top:36%
+  }
+
+  
+.client {
+    height: 700px;
+    width: 100%;
+    background-color: #fafafa;
+   /* flex-direction: column; */
+  }
+  .reviews {
+    position: relative;
+    height: 80%;
+    left: 0%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  .reviews .brandon {
+    width: 100%;
+    left: 0%;
+  }
+  .reviews > h1 {
+display: none;
+  }
+  .reviews > i {
+display: none;
+  }
+  .reviews > p {
+ display: none;
+  }
+  .reviews .divo {
+ display: none;
+  }
+  .reviews .divo1 {
+    display: none;
+
+  }
+  .reviews .divo2 {
+    display: none;
+  }
+
+
+
+  .standard {
+    height: 1500px;
+
+  }
+  .standard > div {
+    width: 90%;
+    margin-left: 0px;
+  }
+      .standard {
+        flex-direction: column;
+      }
+
+      .ipsum > p{
+        height:15px;
+        overflow-y: hidden
+      }
+
+      .today .conn > h1 {
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+      }
+
+.build{
+height:1200px;
+}
+      .build .bao {
+    height:940px;
+    left:0%;
+        flex-direction: column;
+      }
+      .bao > div {
+        width: 90%;
+        
+      }
+      .black .up{
+        margin-left:0px;
+      }
+      .bao > div {
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 2px lightgray;
+      }
+      
+.div1 > h1 {
+
+  left: 0%;
+ width:100%;
+ text-align: center;
+}
+.div1 > p {
+  top:93%;
+  left: 0%;
+ width:100%;
+ text-align: center;
+}
+
+
+.map {
+  height:800px;
+  width: 100%;
+  flex-direction: column;
+}
+.map > div {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+}
+.info .Send {
+  top:88%;
+  left: 38%;
+}
+
+.black {
+  height: 400px;
+}
+.black > img {
+  top: 10%;
+  left: 35%;
+}
+.black > p {
+  top: 22%;
+  text-align: center;
+width:100%;
+left:0%;
+}
+
+.black .fb{
+  top: 46%;
+  left: 20%;
+  padding: 5px;
+}
+.black .fa-twitter {
+  left: 31%;
+}
+.black .fa-instagram{
+  left: 42%;
+}
+.black .fa-google-wallet {
+  left: 53%;
+}
+.black .fa-google-plus-g {
+  left: 64%;
+}
+.black .fa-linkedin {
+  left: 75%;
+}
+.black .home{
+  left:0%;
+  text-align: center;
+}
+
+.black>h3{
+  top:70%;
+  width:100%;
+left:0%;
+}
+
+.black .up{
+  top:90%;
+left:40%;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:551px) and (max-width:950px) {
+  *{
+      padding: 0;
+      margin:0;
+  border: 1px solid red;
+  }
+  .background {
+      width: 100%;
+    }
+  .oxhen{
+height: 60vh;
+
+  }
+  .picoo3{
+margin-left: 0px;
+height: 30px !important;
+width: 95px !important;
+  }
+  .nav2 > .mainul {
+  display: none;
+    }
+
+    .oxhen > h1 {
+      font-size: 35px;
+      top: 16%;
+      width: 100%;
+      text-align: center;
+      left: 0;
+    }
+    .ex>p{
+      top: 32%;
+      left: 45%;
+      font-size:40px;
+    }
+    .oxhen > h2 {
+      text-align: center;
+      width: 100%;
+      text-align: center;
+      top: 40%;
+      left: 0%;
+      font-size: 15px;
+     
+    }
+    .oxhen > button {
+      top: 52%;
+      left: 30%;
+      height: 50px;
+      width: 150px;
+    }
+    .oxhen > i {
+      position: absolute;
+      top: 52%;
+      left: 60%;
+      font-size: 22px;
+    }
+
+    .template > h1 {
+      width: 100%;
+      text-align: center;
+      top: 15%;
+      left: 0%;
+      font-size: 30px;
+    
+    }
+    .template .hr1 {
+      top: 30.5%;
+      left: 40.6%;
+    }
+    .template .fa-caret-up {
+      top: 26.5%;
+   
+      left: 48.5%;
+    }
+    .template .hr2 {
+      left: 53%;
+    }
+
+
+    .template > p {
+      top: 50%;
+      left: 0%;
+      text-align: center;
+      width:100%;
+      font-size: 17px;
+    }
+
+    .back {
+      height: 800px;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .back .fully {
+      margin-left: 0px;
+      height: 80%;
+  width: 90%;
+    }
+    
+.fully > h2 {  
+  left: 0%;
+  width:100%;
+  text-align: center;
+}
+
+.fully > h3 {
+width:100%;
+  left: 0%;
+text-align: center;
+}
+
+
+.marketing {
+  height: 900px;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.marketing .pic {
+  width: 90%;
+}
+.marketing .marks {
+  width: 90%;
+}
+.marks > h1 {
+  width: 100%;
+  text-align: center;
+  left: 0%;
+  font-size: 36px;
+}
+.marks > h6 {
+top:17%;
+  left: 0%;
+  width:100%;
+  text-align: center;
+  font-size: 17.5px;
+ 
+}
+.marks .p1 {
+  position: absolute;
+  top: 35%;
+  height: 40px;
+  width: 100%;
+  font-size: 25px;
+}
+.p1 > p {
+  left: 0%;
+  width:100%;
+  text-align: center;
+  font-size: 17px;
+}
+.marks .p2 {
+  top: 50%;
+}
+.marks .p3 {
+  top: 65%;
+}
+.marks .button2 {
+  left: 30%;
+  top: 80%;
+  height: 45px;
+  width: 180px;
+  font-size: 20px;
+}
+.p1 > i {
+  margin-left: 5px;  
+}
+
+
+.aim {
+  height: 800px;
+}
+.aim .pic {
+  left: 0%;
+}
+.aim .marks {
+  left: 0%;
+}
+.aim .marks > h6 {
+  top: 20%;
+}
+.aim .p1 {
+  top: 44%;
+  left: 0%;
+  text-align: center;
+}
+.aim .p1 > h3 {
+  left: 0%;
+  top: 15%;
+}
+
+.aim .p1 > p {
+  left: 0%;
+  top: 70%;
+}
+
+.pigo > p {
+  top: 45%;
+  left: 0%;
+}
+.pigo > h3 {
+  top: 75%;
+  left: 0%;
+}
+
+.aim .p2 {
+  top: 60%;
+}
+.aim .p3 {
+  top: 75%;
+}
+
+
+
+.responsive > h1 {
+  left: 0%;
+  width:100%
+}
+
+
+
+
+
+.stay {
+  height: 350px;
+
+}
+.stay .conn {
+  height: 70%;
+  width: 100%;
+}
+.conn > h1 {
+  left: 0%;
+  width:100%;
+  text-align: center;
+}
+.conn > p {
+  top:50%;
+  left: 0%;
+  width:100%;
+  text-align: center;
+}
+.conn .button2 {
+  position: absolute;
+  left: 30%;
+  top: 82%;
+}
+.what .hr1{
+  top:40%;
+}
+.what .up1{
+  top:36%
+}
+
+
+.client {
+  height: 700px;
+  width: 100%;
+  background-color: #fafafa;
+}
+.reviews {
+  position: relative;
+  height: 80%;
+  left: 0%;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.reviews .brandon {
+  width: 100%;
+  left: 0%;
+}
+.reviews > h1 {
+display: none;
+}
+.reviews > i {
+display: none;
+}
+.reviews > p {
+display: none;
+}
+.reviews .divo {
+display: none;
+}
+.reviews .divo1 {
+  display: none;
+
+}
+.reviews .divo2 {
+  display: none;
+}
+
+
+
+.standard {
+  height: 1500px;
+
+}
+.standard > div {
+  width: 90%;
+  margin-left: 0px;
+}
+    .standard {
+      flex-direction: column;
+    }
+
+    .ipsum > p{
+      height:15px;
+      overflow-y: hidden
+    }
+    .president > h1 {
+    
+      left: 0%;
+      font-size:30px;
+      width:100%;
+      text-align: center;
+    }
+    .president > h2 {
+    
+      left: 0%;
+      text-align: center;
+      width:100%;
+      font-size: 20px;
+    }
+
+    .today .conn > h1 {
+      left: 0%;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+    }
+
+.build{
+height:1200px;
+}
+    .build .bao {
+  height:940px;
+  left:0%;
+      flex-direction: column;
+    }
+    .bao > div {
+      width: 90%;
+      
+    }
+    .black .up{
+      margin-left:0px;
+    }
+    .bao > div {
+      width: 100%;
+      margin-left: 0px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px 2px lightgray;
+    }
+    
+.div1 > h1 {
+
+left: 0%;
+width:100%;
+text-align: center;
+}
+.div1 > p {
+top:93%;
+left: 0%;
+width:100%;
+text-align: center;
+}
+
+
+.map {
+height:800px;
+width: 100%;
+flex-direction: column;
+}
+.map > div {
+margin-top: 20px;
+width: 90%;
+margin-left: 20px;
+}
+.info .Send {
+top:88%;
+left: 38%;
+}
+
+.black {
+height: 400px;
+}
+.black > img {
+top: 10%;
+left: 35%;
+}
+.black > p {
+top: 22%;
+text-align: center;
+width:100%;
+left:0%;
+}
+
+.black .fb{
+top: 46%;
+left: 20%;
+padding: 5px;
+}
+.black .fa-twitter {
+left: 31%;
+}
+.black .fa-instagram{
+left: 42%;
+}
+.black .fa-google-wallet {
+left: 53%;
+}
+.black .fa-google-plus-g {
+left: 64%;
+}
+.black .fa-linkedin {
+left: 75%;
+}
+.black .home{
+left:0%;
+text-align: center;
+}
+
+.black>h3{
+top:90%;
+width:100%;
+text-align: center;
+left:0%;
+}
+
+.black .up{
+top:90%;
+left:40%;
+
+}
+}

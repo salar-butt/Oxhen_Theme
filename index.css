@@ -1,0 +1,1496 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oxhen {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom right,
+      rgb(17, 87, 81, 1),
+      rgb(202, 204, 200, 0)
+    ),
+    url(./img/home-1.1.jpg);
+  background-size: 100% 100%;
+}
+
+.oxhen > h1 {
+  position: absolute;
+  font-size: 50px;
+  top: 36%;
+  left: 9%;
+  color: white;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.ex > p {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(1, 129, 129);
+  animation: oxhen 2s linear alternate infinite;
+  width: 0px;
+  display: inline;
+  overflow: hidden;
+}
+@keyframes oxhen {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 155px;
+  }
+}
+.oxhen > h2 {
+  position: absolute;
+  top: 58%;
+  left: 9%;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #bccfcd;
+}
+.oxhen > button {
+  position: absolute;
+  top: 75%;
+  left: 9%;
+  height: 50px;
+  width: 230px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 14.2px;
+  transition: 1s;
+  border: none;
+}
+.oxhen > button:hover {
+  top: 73%;
+  transition: 1s;
+  box-shadow: 0px 6px 15px 0px #f5f5f5;
+}
+.oxhen > i {
+  position: absolute;
+  top: 75%;
+  left: 29%;
+  font-size: 22px;
+  color: white;
+  background-color: rgb(1, 129, 129);
+  padding: 13px;
+  width: 20px;
+  text-align: center;
+  border-radius: 100px;
+  transition: 1s;
+}
+.oxhen > i:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(1, 129, 129);
+  transition: 1s;
+}
+.oxhen .fa-arrow-down {
+  position: absolute;
+  top: 96%;
+  left: 49%;
+  background-color: #ffffff;
+  padding: 13px;
+  color: black;
+  z-index: 1;
+  font-size: 18px;
+  border: 1px solid rgb(1, 129, 129);
+  border-radius: 100px;
+}
+
+.template {
+  position: relative;
+  height: 220px;
+  background-color: #ffffff;
+}
+.template > h1 {
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  color: #252d31;
+  font-size: 36px;
+  font-weight: 100;
+}
+.template .hr1 {
+  position: absolute;
+  top: 47.5%;
+  left: 46.6%;
+  width: 40px;
+  height: 2px;
+  background-color: rgb(1, 129, 129);
+}
+.template .fa-caret-up {
+  position: absolute;
+  top: 43%;
+  font-size: 30px;
+  color: rgb(1, 129, 129);
+  left: 49.5%;
+}
+.template .hr2 {
+  left: 50.8%;
+}
+.template > p {
+  position: absolute;
+  top: 60%;
+  left: 29.5%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #a3b1b1;
+}
+
+.back {
+  height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  align-items: center;
+}
+.back .fully {
+  margin-top: 30px;
+  margin-left: 60px;
+  height: 80%;
+  width: 34%;
+  background-color: #ffffff;
+  position: relative;
+}
+.fully > i {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  font-size: 30px;
+}
+.fully > h1 {
+  position: absolute;
+  top: 11%;
+  left: 20%;
+  font-size: 22px;
+  font-weight: 100;
+}
+.fully:hover > h1 {
+  transition: 1s;
+  color: rgb(1, 129, 129);
+}
+
+.fully > h2 {
+  position: absolute;
+  top: 29%;
+  left: 20%;
+  font-size: 17px;
+  color: #a3b1b1;
+  line-height: 1.4;
+  font-weight: 100;
+}
+.fully > h3 {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  font-size: 17px;
+  font-weight: 100;
+}
+.fully::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(
+    rgb(204, 228, 226, 0.8),
+    rgb(204, 228, 226, 0.8)
+  );
+  transition: 0.5s;
+  top: 100%;
+  height: 0%;
+  width: 0%;
+}
+.fully:hover::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+}
+
+.marketing {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.marketing .pic {
+  height: 100%;
+  position: relative;
+  width: 47%;
+}
+.pic > img {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  height: 70%;
+  width: 90%;
+}
+.marketing .marks {
+  height: 100%;
+  position: relative;
+  width: 42%;
+}
+.marks > h1 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 32px;
+  font-weight: 100;
+}
+.marks > h1 > span {
+  padding: 5px;
+  background-color: rgb(11, 187, 187);
+  border-radius: 100px;
+}
+.marks > h6 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 17px;
+  color: #626666;
+  font-weight: 100;
+  line-height: 1.5;
+}
+.marks .p1 {
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(218, 215, 215);
+  transition: 1s;
+}
+.p1 > i {
+  padding: 11px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(1, 129, 129);
+}
+.p1 > p {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  font-size: 15px;
+  color: #a3b1b1;
+}
+.marks .p1:hover {
+  transition: 0.5s;
+  background-color: #cce4e2;
+}
+.marks .p2 {
+  position: absolute;
+  top: 51%;
+}
+.marks .p3 {
+  position: absolute;
+  top: 62%;
+}
+
+.marks .button2 {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  height: 50px;
+  width: 180px;
+  background-color: rgb(1, 129, 129);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.6s;
+  font-size: 13px;
+}
+.marks .button2:hover {
+  transition: 0.6s;
+  top: 78%;
+  cursor: pointer;
+  box-shadow: 0px 6px 10px 0px rgb(3, 160, 160);
+}
+.aim {
+  height: 440px;
+  width: 100%;
+  overflow: hidden;
+}
+.aim .pic {
+  left: 43%;
+}
+.aim .marks {
+  left: -50%;
+}
+.aim .marks > h6 {
+  top: 16%;
+}
+.aim .p1 {
+  border: 1px solid rgb(218, 215, 215);
+  height: 65px;
+  background-color: #fbfbfb;
+  width: 97%;
+  top: 35%;
+  left: 5%;
+}
+.aim .p1 > h3 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 100;
+  transition: 1s;
+  left: 5%;
+  top: 15%;
+}
+
+.p1:hover h3 {
+  transition: 1s;
+  color: rgb(1, 129, 129);
+}
+.aim .p1 > p {
+  left: 5%;
+  top: 55%;
+}
+.aim .p1:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.aim .p1 > i {
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  font-size: 16px;
+}
+.aim .pigo {
+  position: absolute;
+  top: 100%;
+  left: -0.2%;
+  height: 75px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid rgb(218, 215, 215);
+  display: none;
+  z-index: 1;
+}
+.pigo > p {
+  position: absolute;
+  font-size: 14px;
+  top: 5%;
+  left: 5%;
+  line-height: 1.2;
+  color: #a3b1b1;
+}
+.pigo > h3 {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 5%;
+  font-weight: 100;
+  line-height: 1.2;
+  color: rgb(1, 129, 129);
+}
+.aim .p1:hover .pigo {
+  display: block;
+}
+.aim .p2 {
+  top: 50%;
+}
+.aim .p3 {
+  top: 65%;
+}
+
+.stay {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(70, 70, 70, 0.5),
+      rgba(57, 58, 58, 0.5)
+    ),
+    url(./img/cta.1.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+  overflow: hidden;
+}
+.stay .conn {
+  position: relative;
+  height: 70%;
+  width: 600px;
+}
+.conn > h1 {
+  position: absolute;
+  top: 20%;
+  font-size: 30px;
+  color: #ffffff;
+  left: 30%;
+}
+.conn > p {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 18px;
+  color: rgb(235, 232, 232);
+  left: 6%;
+}
+.conn .button2 {
+  position: absolute;
+  left: 35%;
+  top: 70%;
+  height: 50px;
+  width: 180px;
+  background-color: rgb(1, 129, 129);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.6s;
+  font-size: 13px;
+}
+.conn .button2:hover {
+  transition: 0.6s;
+  top: 68%;
+  cursor: pointer;
+  box-shadow: 0px 6px 10px 0px rgb(3, 160, 160);
+}
+
+.what {
+  background-color: #fafafa;
+}
+.what > h1 {
+  left: 28%;
+}
+.client {
+  height: 400px;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+.reviews {
+  position: relative;
+  height: 80%;
+  left: 1%;
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.reviews .brandon {
+  position: absolute;
+  height: 100%;
+  width: 27%;
+  left: 7%;
+  background-color: #b3d4d1;
+}
+.brandon .president {
+  position: absolute;
+  height: 80%;
+  width: 110%;
+  background-color: #ffffff;
+  top: 10%;
+  left: -5%;
+  border: 1px solid rgb(1, 129, 129);
+  border-radius: 5px;
+}
+.president::after {
+  content: "";
+  position: absolute;
+  background-image: url(./img/user2.png);
+  background-size: 100% 100%;
+  height: 70%;
+  top: 6%;
+  left: 7.5%;
+  width: 85%;
+}
+.president > h1 {
+  position: absolute;
+  top: 80%;
+  left: 22%;
+  color: #414141;
+  font-size: 18px;
+  font-weight: 100;
+}
+.president > h2 {
+  position: absolute;
+  top: 89%;
+  left: 24%;
+  color: #807d7d;
+  font-size: 16px;
+  font-weight: 100;
+}
+.reviews > h1 {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  font-size: 22px;
+  font-weight: 100;
+  color: #414141;
+  width: 180px;
+  border-bottom: 5px solid #00776d;
+}
+.reviews > i {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  font-size: 55px;
+  color: #afafaf;
+}
+.reviews > p {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  font-size: 13.5px;
+  line-height: 1.5;
+  font-weight: 100;
+  color: #afafaf;
+}
+.reviews .divo {
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  border-radius: 100px;
+  height: 15px;
+  width: 15px;
+  background-color: #05b6a7;
+}
+.reviews .divo1 {
+  left: 59%;
+  background-color: #06978b;
+}
+.reviews .divo2 {
+  left: 63%;
+  background-color: #066860;
+}
+.pricing > h1 {
+  left: 46%;
+}
+
+.standard {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.standard > div {
+  height: 90%;
+  width: 27%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+.standard .month {
+  position: relative;
+  transition: 1s;
+  margin-top: 20px;
+}
+.month .monthly {
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  transition: 1s;
+  border-radius: 10px;
+}
+.month:hover {
+  margin-top: 0px;
+  transition: 1s;
+}
+.month:hover .monthly {
+  background-color: #00776d;
+  transition: 1s;
+}
+.monthly > h1 {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  font-size: 18px;
+  font-weight: 100;
+  /* color:rgb(1, 129, 129); */
+  color: rgb(1, 129, 129);
+}
+.month:hover .monthly > h1 {
+  color: rgb(218, 215, 215);
+}
+.month:hover .monthly > h2 {
+  color: white;
+}
+.monthly > h2 {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  font-size: 45px;
+  color: black;
+}
+.monthly > h3 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  font-size: 18px;
+  font-weight: 100;
+  /* color:rgb(1, 129, 129); */
+  color: rgb(218, 215, 215);
+}
+.templates{
+  position: relative;
+  top: 180px;
+  list-style: none;
+  left:5px;
+}
+
+.templates > li {
+  margin-top: 17px;
+}
+.templates > li > i {
+  padding: 3px;
+  background-color: #05b6a7;
+  border-radius: 100px;
+  color: #cbd8d8;
+}
+.templates > li > p {
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(156, 154, 154);
+}
+.month .choose {
+  position: absolute;
+  top: 85%;
+  left: 6%;
+  height: 48px;
+  width: 320px;
+  border: 1px solid rgb(1, 129, 129);
+  font-size: 14px;
+  color: rgb(1, 129, 129);
+  background-color: white;
+  transition: 1s;
+  border-radius: 5px;
+}
+.choose:hover {
+  cursor: pointer;
+  top: 83%;
+  transition: 1s;
+  border: none;
+  background-color: #00776d;
+  color: #ffffff;
+  box-shadow: 0px 6px 10px 0px rgb(3, 160, 160);
+}
+
+.standard .two {
+  margin-top: 0px;
+}
+.two .monthly {
+  background-color: #00776d;
+}
+.two .monthly > h1 {
+  color: rgb(218, 215, 215);
+}
+.two .monthly > h2 {
+  color: white;
+}
+.two .monthly > h3 {
+  color: rgb(218, 215, 215);
+}
+.two .choose {
+  position: absolute;
+  top: 84%;
+  left: 6%;
+  height: 48px;
+  width: 320px;
+  border: 1px solid rgb(1, 129, 129);
+  font-size: 14px;
+  transition: 1s;
+  border-radius: 5px;
+  background-color: #00776d;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 6px 10px 0px rgb(3, 160, 160);
+}
+.today .ipsum {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.432);
+  overflow: hidden;
+}
+.ipsum > p {
+  position: absolute;
+  top: 25%;
+  left: 100%;
+  width: 100%;
+  font-size: 15px;
+  color: #a3b1b1;
+  animation: move 30s linear infinite;
+}
+@keyframes move {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.today .conn {
+  top: 20%;
+}
+.today .conn > h1 {
+  left: 20%;
+  font-size: 35px;
+}
+
+.build {
+  height: 700px;
+  width: 100%;
+  background-color: #fafafa;
+  background-size: 100% 100%;
+}
+.build .responsive {
+  background-color: #fafafa;
+  background-size: 100% 100%;
+}
+.responsive > h1 {
+  left: 46.8%;
+}
+.build .bao {
+  height: 68%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bao > div {
+  margin-top: 30px;
+  position: relative;
+  height: 75%;
+  width: 19%;
+  margin-left: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 2px lightgray;
+}
+.div1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.div1 .big {
+  position: absolute;
+  height: 72%;
+
+  border-radius: 10px;
+  border-end-start-radius: 0px;
+  border-end-end-radius: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+.big::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: 2s;
+  background-image: url(./img/user.png);
+  background-size: 100% 100%;
+}
+.div1:hover .big::after {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.big .fa-facebook {
+  position: absolute;
+  top: 89%;
+  left: 15%;
+  font-size: 15px;
+  border-start-start-radius: 5px;
+  border-start-end-radius: 5px;
+  color: #ffffff;
+  background-color: black;
+  padding: 10px;
+}
+.div1:hover .fa-facebook {
+  transition-duration: 2s;
+  z-index: 1;
+  animation: hover 1s linear 1;
+}
+@keyframes hover {
+  0% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.big .fa-twitter {
+  left: 31%;
+}
+.div1:hover .fa-twitter {
+  animation-duration: 1.7s;
+}
+.big > .fa-linked-in {
+  left: 47%;
+}
+.big > .fa-instagram {
+  left: 63%;
+}
+.div1:hover .fa-instagram {
+  animation-duration: 1.7s;
+}
+
+.bao .deb1 .big::after {
+  background-image: url(./img/user1.png);
+}
+
+.bao .deb2 .big::after {
+  background-image: url(./img/user2.png);
+}
+
+.bao .deb3 .big::after {
+  background-image: url(./img/user3.png);
+}
+
+.div1 > h1 {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 22px;
+  color: #252d31;
+}
+.div1 > p {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  font-size: 15px;
+  color: rgb(218, 215, 215);
+}
+
+.contact > h1 {
+  left: 43%;
+}
+.contact > p {
+  left: 32%;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.map > div {
+  margin-top: 30px;
+  height: 76%;
+  width: 41%;
+  margin-left: 20px;
+}
+.map .border {
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.border > iframe {
+  position: absolute;
+  left: 2.5%;
+  top: 2.5%;
+  height: 95%;
+  width: 95%;
+}
+
+.map .info {
+  position: relative;
+}
+.info .input1 {
+  position: absolute;
+  border-radius: 5px;
+  top: 3%;
+  font-size: 15px;
+  height: 45px;
+  width: 99.8%;
+  border: 1px solid lightgray;
+}
+.input1:focus {
+  outline: 3px solid lightblue;
+  border-radius: 5px;
+}
+.input1::placeholder {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.info .fa-user {
+  position: absolute;
+  top: 3%;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 17px;
+  color: white;
+  background-color: rgb(1, 129, 129);
+}
+.info .input2 {
+  top: 18%;
+}
+.info .fa-envelope {
+  top: 18%;
+}
+
+.info .input3 {
+  top: 33%;
+}
+.info .fa-clipboard {
+  top: 33%;
+  width: 2.4%;
+}
+.info .input3 {
+  top: 33%;
+}
+.info .fa-clipboard {
+  top: 33%;
+  width: 2.4%;
+}
+.info > textarea {
+  position: absolute;
+  border-radius: 5px;
+  top: 49%;
+  font-size: 15px;
+  height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 83px;
+  padding-top: 10px;
+  color: rgb(156, 139, 139);
+  border: 1px solid rgb(218, 215, 215);
+}
+.info .fa-comment {
+  position: absolute;
+  top: 49%;
+  height: 115px;
+}
+.info .Send {
+  position: absolute;
+  top: 92%;
+  left: 68%;
+  height: 50px;
+  border-radius: 5px;
+  width: 176px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(1, 129, 129);
+  transition: 1s;
+  border: none;
+}
+.Send:hover {
+  cursor: pointer;
+  transition: 1s;
+  top: 90%;
+  box-shadow: 0px 6px 10px 0px rgb(3, 160, 160);
+}
+.black {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  background-color: #3a4245;
+}
+.black > img {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  height: 27px;
+}
+.black > p {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  left: 31%;
+  font-size: 16.5px;
+  color: rgb(218, 215, 215);
+}
+.black .fb{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 17px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid white;
+  transition: 1s;
+  width:20px;
+  text-align: center;
+  color: white;
+}
+.black .fb:hover {
+  color: rgb(1, 129, 129);
+  cursor: pointer;
+  background-color: white;
+  transition: 1s;
+}
+.black .fa-twitter {
+  position: absolute;
+  left: 44%;
+}
+.black .fa-instagram{
+  position: absolute;
+  left: 48%;
+}
+.black .fa-google-wallet {
+  position: absolute;
+  left: 52%;
+}
+.black .fa-google-plus-g {
+  position: absolute;
+  left: 56%;
+}
+.black .fa-linkedin {
+  position: absolute;
+  left: 60%;
+}
+
+.black .home{
+  position: absolute;
+  top:60%;
+  left:31%;
+  font-size: 16px;
+  color:rgb(218, 215, 215);
+  list-style: none;
+}
+.home>li{
+  cursor: pointer;
+  transition: 1s;
+  float:left;
+  margin-left:30px;
+}
+.home>li:hover{
+  color:white;
+  cursor: pointer;
+  transition: 1s;
+}
+.black .gish{
+  position: absolute;
+  top:90%;
+  color:rgb(218, 215, 215);
+  height:1px;
+  width: 99.5%;
+}
+
+.black>h3{
+  position: absolute;
+  top:95%;
+  /* width:300px; */
+  color:rgb(218, 215, 215);
+left:41%;
+font-size: 14.5px;
+font-weight: 100;
+}
+.black .up{
+  position: absolute;
+  top:90%;
+  color:rgb(218, 215, 215);
+left:94%;
+font-size: 14px;
+padding:15px;
+text-align: center;
+color:white;
+background-color: rgb(1, 129, 129);
+  transition: 1s;
+  border-radius: 100px;
+}
+.up:hover{
+  cursor: pointer;
+  color:rgb(1, 129, 129);
+  background-color: white;
+  transition: 1s;
+}
+
+.iconii{
+transition: 1s;  
+
+}
+.fully:hover .iconii{
+cursor: pointer;
+transition: 1s;  
+transform: rotateY(180deg);
+}
+
+
+
+
+
+/*---------------------------------- navbar section */
+
+.background {
+  position: fixed;
+  z-index: 5;
+  width: 100vw;
+}
+
+.picoo3{
+  margin-left:-50px;
+}
+
+.nav2 {
+  position: relative;
+  height: 60px;
+  width: 98.8%;
+  z-index: 1;
+  background-color: black;
+}
+.nav2 > img {
+  position: absolute;
+  height: 28px;
+  width: 130px;
+  top: 28%;
+  transition: 1s;
+  left: 7%;
+}
+.nav2 > img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 1s;
+}
+.nav2 > .mainul {
+  position: absolute;
+  left: 16%;
+  top: 33%;
+  font-size: 18px;
+  color: #b3b3b8;
+  list-style: none;
+}
+.nav2 > ul > li {
+  transition: 1s;
+  height: 40px;
+  float: left;
+  margin-left: 35px;
+}
+.nav2 > ul > li > i {
+  transition: 0.5s;
+}
+.nav2 > ul > li:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+.nav2 > ul > li:hover i {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.shopp {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -27%;
+  height: 0px;
+  width: 1170px;
+  overflow: hidden;
+  transition: 1s;
+  background-color: #ffffff;
+}
+.ShopLi:hover .shopp{
+  transition: 1s;
+  cursor: pointer;
+height:320px}
+.soap {
+  position: absolute;
+  list-style: none;
+  left: 2%;
+  top: 5%;
+}
+.soap > li {
+  color: rgb(66, 65, 65);
+  margin-top: 15px;
+}
+.soap > li:hover {
+  transition: 1s;
+  cursor: pointer;
+  color: black;
+}
+.feature {
+  position: absolute;
+  left: 25%;
+}
+.discover {
+  position: absolute;
+  left: 52%;
+}
+.flow {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  background-color: #f6f6fc;
+  right: 0%;
+}
+.flow::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/fresh__imt-01_600x.jpg);
+  background-size: 100% 100%;
+  height: 75%;
+  width: 90%;
+  left: 5%;
+  top: 5%;
+}
+.shows {
+  position: absolute;
+  height: 40px;
+  width: 90%;
+  position: absolute;
+  top: 85%;
+  transition: 1s;
+  left: 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(207, 207, 9);
+  font-size: 15px;
+}
+.shows:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: yellow;
+}
+.nav2 .glass {
+  position: absolute;
+  top: 30%;
+  right: 11%;
+  font-size: 18px;
+  color: #b3b3b8;
+}
+.glass:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+.nav2 .fa-gift {
+  right: 5%;
+}
+
+.li2 > .hair {
+  position: absolute;
+  background-color: #fffbfb;
+  margin-top: 15px;
+  left: -21%;
+  overflow: hidden;
+  height: 0px;
+  transition: 1s;
+  width: 1160px;
+}
+.li2:hover .hair {
+  transition: 1s;
+  cursor: pointer;
+height:400px}
+
+.hairy {
+  position: absolute;
+  font-size: 17px;
+  list-style: none;
+  left: 2%;
+  top: 5%;
+}
+.hairy > li {
+  color: rgb(66, 65, 65);
+  margin-top: 15px;
+}
+.hairy > li:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.hair > .get {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  background-color: #eaeaf0;
+  left: 25%;
+}
+.get::after {
+  position: absolute;
+  content: "";
+  height: 70%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
+  background-image: url(./img/fresh__megamenu-03_1600x.jpg);
+  background-size: 100% 100%;
+}
+.get > h2 {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  font-size: 19px;
+  font-weight: 100;
+  color: black;
+}
+.get > .butt1 {
+  top: 88%;
+}
+.hair > .circle {
+  position: absolute;
+  left: 50%;
+}
+.circle::after {
+  background-image: url(./img/solid2_400x.jpg);
+}
+.circle > h2 {
+  transition: 1s;
+  color: #98989c;
+}
+.circle > h2:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.circle > h3 {
+  position: absolute;
+  top: 90%;
+  font-size: 17px;
+  left: 30%;
+  transition: 1s;
+  color: #98989c;
+}
+.circle > h3:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.hair > .circle2 {
+  position: absolute;
+  left: 75%;
+}
+.circle2::after {
+  background-image: url(./img/solid1_400x.jpg);
+}
+
+.li3 > .face {
+  position: absolute;
+  background-color: #f7f7f7;
+  margin-top: 16px;
+  left: -24%;
+height:0px;
+  transition: 1s;
+overflow: hidden;
+  width: 1160px;
+}
+.li3:hover .face {
+  height: 400px;
+  transition: 1s;
+}
+.face > .box1 {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+}
+.box1::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-7_400x.jpg);
+  background-size: 100% 100%;
+  top: 3%;
+  left: 5%;
+  height: 70%;
+  width: 90%;
+}
+.box1 > h1 {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-size: 20px;
+  transition: 1s;
+  color: #98989c;
+  font-weight: 100;
+}
+.box1 > h1:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.box1 > h2 {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  font-size: 16px;
+  font-weight: 100;
+  transition: 1s;
+  color: #98989c;
+}
+.box1 > h2:hover {
+  cursor: pointer;
+  transition: 1s;
+  color: black;
+}
+.face > .box2 {
+  position: absolute;
+  left: 25%;
+}
+.box2::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-3_400x.jpg);
+  background-size: 100% 100%;
+}
+.face > .box3 {
+  position: absolute;
+  left: 50%;
+}
+.box3::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/marble-soap-4_1200x.jpg);
+  background-size: 100% 100%;
+}
+.face > .box4 {
+  position: absolute;
+  left: 75%;
+}
+.box4::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/solid-soap-4_400x.jpg);
+  background-size: 100% 100%;
+}
+
+.li4 > .compani {
+  list-style: none;
+  height: 0px;
+  text-align: center;
+  width:120px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 15px;
+  background-color: #ffffff;
+}
+.compani > li {
+  margin-top: 5px;
+  transition: 1s;
+  color: #98989c;
+}
+.compani > li:hover {
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.li4:hover .compani {
+  transition: 1s;
+height:120px;
+  cursor: pointer;
+}
+
+.background > h1 {
+  position: absolute;
+  top: 80%;
+  font-size: 28px;
+  font-weight: 100;
+  color: #ffffff;
+  left: 3%;
+}
+.background > a {
+  position: absolute;
+  top: 90%;
+  font-size: 17px;
+  font-weight: 100;
+  transition: 1s;
+  color: black;
+  left: 3%;
+}
+a:hover {
+  transition: 1s;
+  color: #ffffff;
+}
+
+
